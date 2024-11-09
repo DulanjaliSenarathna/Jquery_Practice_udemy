@@ -1,4 +1,5 @@
 $(function() {
-  $(".blue-box").hide(1000);
-  $(".blue-box").show(1000);
+  $(".blue-box").slideToggle(2000);
+  $("p").hide();
+  $("p").slideDown(2000);
 });
