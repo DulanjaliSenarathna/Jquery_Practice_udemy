@@ -1,6 +1,13 @@
 $(function() {
   $(".blue-box").animate({
-    "margin-left":"+=200px",
+    "margin-left":"200px",
+    "opacity":"0",
+    "height":"50px",
+    width:"50px",
+    marginTop:"25px"
+  },1000);
 
-  },1000, "linear");
+  $("p").animate({
+    "font-size":"20px",
+  },1000)
 });
